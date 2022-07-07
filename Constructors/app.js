@@ -5,11 +5,21 @@
 
 
 
-function makeDoge(){
+function makeDoge(name,breed,color,gender){
   // Write your code here
 
-
+     this.name = name;
+     this.breed = breed;
+     this.color = color;
+     this.dogGender = gender;
   let newDog = new Dog('Fiddo', 'Lab', 'brown', 'male');
+
+  // let Dog = {
+  //   name: 'Fiddo',
+  //   breed: 'Lab',
+  //   color: 'brown',
+  //   gender: 'male',
+  // }
   alert(newDog.name); 
   alert(newDog.breed);
   alert(newDog.color);
