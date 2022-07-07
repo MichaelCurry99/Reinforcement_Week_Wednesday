@@ -14,7 +14,15 @@ const main = () => {
   //    Banana, price 1.1, amount 13.
   //     Create two instances of the class and call the method created to print the product's details.
 
+class Product {
+constructor(price,quantity,name){
+  this.productPrice = price;
+  this.productQuantity = quantity;
+  this.productName = name;
+}
+}
 
+let newProduct = new Product('2.00','4',"Ramen");
 
   // Problem 2:
   // Create a GitHubRepository class with properties: userName, fileName, descriptionOfRepository, and code. 

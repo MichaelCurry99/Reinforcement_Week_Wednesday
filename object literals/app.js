@@ -24,20 +24,21 @@ let foodOne = {
 
 };
 
-let foodTwo = {
-    food: "steak",
-    weight: 0.9,
-    price: 4.00,
+// let foodTwo = {
+//     food: "steak",
+//     weight: 0.9,
+//     price: 4.00,
 
-};
+// };
 
-let foodThree = {
-    food: "cheese",
-    weight: 1.7,
-    price: 7.00,
+// let foodThree = {
+//     food: "cheese",
+//     weight: 1.7,
+//     price: 7.00,
 
-};
+// };
 
 // console.log(foodOne,foodTwo,foodThree);
 
-console.log(foodOne,foodTwo,foodThree);
+foodOne.push(foodOne.price);
+console.log(foodOne);
